@@ -130,7 +130,7 @@ function AccordionUsage() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor aliquam tortor at suscipit. Etiam accumsan, est id vehicula cursus, eros ligula suscipit massa, sed auctor felis mi eu massa. Sed vulputate nisi nibh, vel maximus velit auctor nec. Integer consectetur elementum turpis, nec fermentum ipsum tempor quis. Praesent a quam congue, egestas erat sit amet, finibus justo. Quisque viverra neque vehicula eros gravida ultricies. Ut lacinia enim nec consequat tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus ultricies ornare feugiat. Donec vitae rhoncus sapien, ac aliquet nunc.</p>
+                        <p>Delivery options and estimated arrival dates are shown at checkout, and return details are included with your order confirmation. This storefront is a portfolio demo, so no real orders are placed or shipped.</p>
                     </div>
                 </AccordionDetails>
             </Accordion>
