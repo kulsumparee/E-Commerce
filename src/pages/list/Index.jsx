@@ -81,7 +81,7 @@ const CardList = () => {
       <div className=''>
         <PaginationComp currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={ListData.length} paginate={paginate} />
         <div>
-          <h1 className=' flex justify-center text-center'>1 – 20 of 300+ properties found</h1>
+          <h1 className=' flex justify-center text-center'>Showing {indexOfFirstItem + 1} – {indexOfFirstItem + currentItems.length} of {ListData.length} products</h1>
         </div>
       </div>
       

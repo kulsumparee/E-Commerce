@@ -29,7 +29,7 @@ const FirstScreen = () => {
 
       {filterData ? (
         <div div className='px-5 lg:px-10' >
-          <h1 className=' text-md sm:text-lg  pt-10'>Home  /  Electronics  /  Computers  /  Desktop Computers</h1>
+          <h1 className=' text-md sm:text-lg  pt-10'>Home  /  Shop  /  All Products</h1>
           <CommonData setFilterData={setFilterData} setListData={setListData} />
 
           {listData ? (
@@ -58,7 +58,7 @@ const FirstScreen = () => {
               <div className=''>
                 <PaginationComp currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={FirstPageData.length} paginate={paginate} />
                 <div>
-                  <h1 className=' flex justify-center text-center'>1 – 20 of 300+ properties found</h1>
+                  <h1 className=' flex justify-center text-center'>Showing {indexOfFirstItem + 1} – {indexOfFirstItem + currentItems.length} of {FirstPageData.length} products</h1>
                 </div>
               </div>
             </>

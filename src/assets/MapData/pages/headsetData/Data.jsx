@@ -1,23 +1,25 @@
-import image from "../../../images/Group 22.svg"
+// Article content for the /headset page (linked from the home-page VR headset banner).
 const HeadsetData = [
     {
         id: 1,
-        img: image,
+        tag: "Tips & Tricks",
         heading1: "Virtual Reality: another world within sight",
-        heading2: "What makes a good brand book?",
-        title1: "Ut enim nunc, luctus vel nulla id, lacinia ultrices libero. Maecenas quis interdum nibh. Suspendisse purus nibh, vestibulum porttitor orci et, egestas maximus ligula. Proin pharetra convallis est, ut aliquam nisl consequat cursus. Donec ut finibus dui. felis urna, feugiat ac auctor in, euismod ut sapien. Cras nulla felis, faucibus sit amet aliquet a, vestibulum vitae turpis. Sed a interdum lectus, in varius purus. Cras maximus nulla in felis semper hendrerit.",
+        intro: "A virtual reality headset places a screen in front of each eye and tracks how your head moves, so the scene around you changes as you look around. If you are thinking about your first headset, a few basics make the options much easier to compare.",
 
-        title2: " Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Diam phasellus vestibulum lorem sed risus ultricies. Magna sit amet purus gravida quis blandit. Arcu cursus vitae congue mauris. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Semper risus in hendrerit gravida rutrum quisque non. At urna condimentum mattis pellentesque id nibh tortor. A erat nam at lectus urna duis convallis convallis tellus. Sit amet mauris commodo quis imperdiet massa. Vitae congue eu consequat ac felis.",
-        title3: "Donec purus posuere nullam lacus aliquam egestas arcu. A egestas a, tellus massa, ornare vulputate. Erat enim eget laoreet ullamcorper lectus aliquet nullam tempus id. Dignissim convallis quam aliquam rhoncus, lectus nullam viverra. Bibendum dignissim tortor, phasellus pellentesque commodo, turpis vel eu. Donec consectetur ipsum nibh lobortis elementum mus velit tincidunt elementum. Ridiculus eu convallis eu mattis iaculis et, in dolor. Sem libero, tortor suspendisse et, purus euismod posuere sit. Risus dui ut viverra venenatis ipsum tincidunt non, proin. Euismod pharetra sit ac nisi. Erat lacus, amet quisque urna faucibus. Rhoncus praesent faucibus rhoncus nec adipiscing tristique sed facilisis velit.",
+        heading2: "What to look for in a VR headset",
+        lead: "Start with how you plan to use it. Gaming, fitness and watching video each lean on different strengths, and the right choice also depends on the space you have at home and the apps and games you want to run.",
+        points: [
+            "Display: a sharper screen and a comfortable refresh rate make text and motion easier on the eyes.",
+            "Comfort: check the weight, how the head strap adjusts, and whether the headset works with glasses.",
+            "Tracking: standalone headsets track themselves, while others need a PC or console and extra sensors.",
+            "Content: make sure the games and apps you want are available on that headset's platform.",
+        ],
 
-        title4: "Neque nulla porta ut urna rutrum. Aliquam cursus arcu tincidunt mus dictum sit euismod cum id. Dictum integer ultricies arcu fermentum fermentum sem consectetur. Consectetur eleifend aenean eu neque euismod amet parturient turpis vitae. Faucibus ipsum felis et duis fames.",
-        
-        title5:"“Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Diam phasellus vestibulum lorem sed risus ultricies. Magna sit amet purus gravida quis blandit. Arcu cursus vitae congue mauris.“",
+        quote: "Comfort and the content you can actually play matter more than any single spec.",
+
+        setup: "Before you buy, set aside some room to move around. Manufacturers usually recommend clearing a safe play area, so it is worth reading their setup and safety guidance first, especially if younger people will be using the headset.",
+        safety: "Take regular breaks during longer sessions, and stop if you feel dizzy or uncomfortable.",
     },
-   
-
-
-]
-
+];
 
 export default HeadsetData;
