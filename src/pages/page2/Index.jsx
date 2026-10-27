@@ -38,7 +38,7 @@ const SecondPage = () => {
                 <img src={Line} alt="Line" />
             </div>
             <h1 className='px-10 py-10 text-md sm:text-lg pt-10'>
-                Home / Electronics / Computers / Desktop Computers
+                Home / Shop / All Products
             </h1>
             <div>
                 <AntCarocel />  
@@ -73,7 +73,7 @@ const SecondPage = () => {
                             />
                             <div>
                                 <h1 className='flex justify-center text-center'>
-                                    1 – {currentItems.length} of {FirstPageData.length} properties found
+                                    Showing {indexOfFirstItem + 1} – {indexOfFirstItem + currentItems.length} of {FirstPageData.length} products
                                 </h1>
                             </div>
                         </div>

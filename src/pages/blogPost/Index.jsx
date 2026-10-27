@@ -4,7 +4,7 @@ import { BlogData } from './Data'
 const BlogPostScreen = () => {
     return (
         <>
-            <h1 className=' px-10 text-md sm:text-lg  pt-10'>Home  /  Electronics  /  Computers  /  Desktop Computers</h1>
+            <h1 className=' px-10 text-md sm:text-lg  pt-10'>Home  /  Blogs</h1>
             <div className=" flex justify-center py-8 px-5">
 
                 <h1 className='text-2xl font-semibold'>Blogs</h1>

@@ -10,17 +10,19 @@ import { Divider, Image, Rate } from 'antd'
 import React from 'react'
 import Counter from './counter'
 import AccordionUsage from './accordian/Index';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import SallarComponent from '../../components/bestSellars/Index';
 import sallerProducts from '../../assets/MapData/bestSellarsData/data';
 import HomeData from '../../assets/MapData/bestSellarsData/HomeData';
 
 const SingleCard = ({ onBackClick, data }) => {
+    // Opened directly (e.g. /singleCardDetails) with no product selected: send the visitor to the listing.
+    if (!data) return <Navigate to="/shopNow" replace />
     return (
         <div className=''>
             <div className=' flex flex-col-reverse  md:flex-row justify-between px-10'>
                 <h1 className=' py-10 text-md sm:text-lg pt-10 '>
-                    Home / Electronics / Computers / Desktop Computers
+                    Home / Shop / All Products
                 </h1>
                 <button onClick={onBackClick}> <ArrowLeftOutlined /> Back to List</button>
             </div>
